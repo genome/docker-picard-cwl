@@ -7,6 +7,7 @@ LABEL \
 RUN apt-get update -y && apt-get install -y \
     apt-utils \
     default-jre \
+    r-base littler \
     wget
 
 RUN mkdir /opt/picard-2.18.1/ \
